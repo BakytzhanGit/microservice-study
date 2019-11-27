@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { url 'http://artifactory.kcell.kz/gradle-plugins' }
+        maven { url 'http://artifactory.kcell.kz/gradle-plugins-local' }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'image_service'

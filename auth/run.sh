@@ -1,0 +1,1 @@
+docker run -d --name auth -p 9100:9100 -t auth-server
