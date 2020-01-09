@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Gallery {
     private int id;
-    private List<Object> images;
+    private List images;
 
     public Gallery() {
     }
@@ -17,11 +17,11 @@ public class Gallery {
         this.id = id;
     }
 
-    public List<Object> getImages() {
+    public List getImages() {
         return images;
     }
 
-    public void setImages(List<Object> images) {
+    public void setImages(List images) {
         this.images = images;
     }
 }

@@ -32,7 +32,7 @@ public class HomeController {
         Gallery gallery = new Gallery();
         gallery.setId(id);
 
-        List<Object> images = restTemplate.getForObject("http://image-service/images/", List.class);
+        List images = restTemplate.getForObject("http://image-service/images/", List.class);
         gallery.setImages(images);
 
         return gallery;

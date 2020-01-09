@@ -5,3 +5,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+include ":auth"
+include ":image"
+include ":gallery"
+include ":eureka-zuul"
+include ":euruka_server"
